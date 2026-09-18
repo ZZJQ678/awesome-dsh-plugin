@@ -2,5 +2,5 @@ url: https://github.com/ZZJQ678/dsh-global-context
 name: ZZJQ678/dsh-global-context
 category: session
 description:
-  en: 'Global prompt for DeepSeek Harness: injects a custom prompt at the very top of every session system prompt, ahead of the built-in identity text, for every session, model and subagent; and adds a Global Prompt tab in the conversation view to edit it. The text lives in a plain file that is re-read per message, so saving applies to the next message without a restart.'
-  zh: '全局提示词：把自定义提示词注入到每个会话系统提示词的最顶部（排在内置身份说明之前），对每个会话、每个模型与子代理生效，并在对话视图新增「全局提示词配置」标签页可直接编辑。正文存在普通文本文件里、每次发消息重新读取，保存后下一条消息即生效、无需重启。'
+  en: 'Adds a Global Prompt tab to the conversation view: text you write there is prepended to the top of every session system prompt, and saving takes effect on the next message without a restart.'
+  zh: '全局提示词配置：在对话视图新增一个标签页，写进去的内容会加在每个会话系统提示词的最前面，保存后下一条消息即生效。'
